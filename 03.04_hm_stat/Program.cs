@@ -115,14 +115,14 @@ namespace _03._04_hm_stat
         }
         public override void Deposit()
         {
-            Console.Write("Enter the replenishment amount: ");
+            Console.Write("Enter amount profile: ");
             string n = Console.ReadLine();
             balance += Convert.ToDouble(n);
-            Console.WriteLine("Refill completed successfully...");
+            Console.WriteLine("Success Profile...");
         }
         public override void Withdraw()
         {
-            Console.Write("Enter amount to withdraw: ");
+            Console.Write("Enter amount to download: ");
             string s = Console.ReadLine();
             balance -= Convert.ToDouble(s);
         }
@@ -153,14 +153,14 @@ namespace _03._04_hm_stat
         }
         public override void Deposit()
         {
-            Console.Write("Enter the replenishment amount: ");
+            Console.Write("Enter amount profile: ");
             string n = Console.ReadLine();
             balance += Convert.ToDouble(n);
-            Console.WriteLine("Refill completed successfully...");
+            Console.WriteLine("Success Profile...");
         }
         public override void Withdraw()
         {
-            Console.Write("Enter amount to withdraw: ");
+            Console.Write("Enter amount to download: ");
             string s = Console.ReadLine();
             balance -= Convert.ToDouble(s);
         }
